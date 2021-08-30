@@ -1,0 +1,134 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+/* font-family: 'Red Hat Display', sans-serif; */
+
+
+/* Gerais */
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+
+/* BACKGROUND */
+
+.bg-geral{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+
+/* main */
+
+.main{
+    width: 30vw;
+    height: 90vh;
+    /* background-color: rgb(78, 157, 209); */
+    background-color: white;
+    margin: auto auto;
+    border-radius: 20px;
+}
+
+/* img top */
+
+.img-top{
+    height: 33vh;
+    background-image: url(../images/illustration-hero.svg);
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px ;
+}
+
+
+/* Text intro */
+
+
+.text-intro{
+    background-color: white;
+    padding: 30px;
+}
+.text-intro h1{
+    font-size: 1.7em;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    
+}
+
+.text-intro p{
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+/* plano*/
+
+.plano{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    background-color:rgba(236, 243, 255, 0.795);
+    width: 300px;
+    margin: 0 auto;
+    border-radius:10px;
+}
+
+.plano h1{
+    color:hsl(223, 47%, 23%) ;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.plano p{
+    color: hsl(224, 23%, 55%);
+}
+
+/* confirm */
+
+.confirm{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-pay{
+    display: block;
+    background-color:#1A1178;
+    width: 310px;
+    margin: 0 auto;
+    padding: 15px 10px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-cancel{
+    display: block;
+    margin-top: 10px;
+    color: hsl(0, 0%, 60%);
+    text-decoration: none;
+    font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
