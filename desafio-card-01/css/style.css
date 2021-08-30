@@ -90,6 +90,7 @@ body{
 
 .plano p{
     color: hsl(224, 23%, 55%);
+    
 }
 
 /* confirm */
@@ -112,12 +113,23 @@ body{
     text-align: center;
 }
 
+.btn-pay:hover{
+    background-color: green;
+    transition: linear .3s;
+
+}
+
 .btn-cancel{
     display: block;
     margin-top: 10px;
     color: hsl(0, 0%, 60%);
     text-decoration: none;
     font-weight: normal;
+}
+
+.btn-cancel:hover{
+    color: red;
+    transition: linear .1;
 }
 
 
