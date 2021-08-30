@@ -1,0 +1,15 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+/* font-family: 'Red Hat Display', sans-serif; */
+
+
+
+/* BACKGROUND */
+
+.main{
+    background-image: url(../desafio-card-01/images/pattern-background-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
