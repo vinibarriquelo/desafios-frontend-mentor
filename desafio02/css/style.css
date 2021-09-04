@@ -6,3 +6,9 @@ body{
     font-family: 'Spartan', sans-serif;
     font-weight: normal;
 }
+
+.bg-geral{
+    width: 100wh;
+    height: 100vh;
+    background-color: greenyellow;
+}
