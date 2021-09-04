@@ -8,7 +8,12 @@ body{
 }
 
 .bg-geral{
-    width: 100wh;
+    width: 100vw;
     height: 100vh;
-    background-color: greenyellow;
+    background-image:url(../images/bg-pattern-bottom-desktop.svg);
+    background-image:url(../images/bg-pattern-top-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
 }
