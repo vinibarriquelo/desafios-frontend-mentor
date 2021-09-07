@@ -7,6 +7,11 @@ body{
     font-weight: normal;
 }
 
+.main-card img{
+    max-width: 100%;
+    display: block;
+}
+
 .bg-geral{
     width: 100vw;
     height: 100vh;
@@ -20,6 +25,7 @@ body{
 .intro-flex{
     padding: 40px;
     display: flex;
+    height: 40vh;
 }
 
 .intro-text{
@@ -72,3 +78,66 @@ body{
 .item03{
     align-self: flex-end;
 }
+
+/* Sessão de cards */
+
+.main-card{
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    height: 42vh;
+}
+
+.card{
+    max-width: 300px;
+    background-color: hsl(300, 43%, 22%);
+    padding: 1.4rem;
+    border-radius: 10px;
+}
+
+.card-top-flex{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.card img{
+    border-radius: 50%;
+}
+
+.card-top-text{
+    padding: 20px 0 0 20px;
+}
+
+
+
+.card-top-text h1{
+    color: white;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+.card-top-text h2{
+    color: hsl(303, 10%, 53%);
+    font-size: 0.8em;
+}
+
+.card > p {
+    color: hsl(300, 24%, 96%);
+    font-weight: lighter;
+    font-size: 0.8em;
+    line-height: 1.4;
+}
+
+.card01{
+    align-self: flex-start;
+}
+
+.card02{
+    align-self:center;
+}
+
+.card03{
+    align-self:flex-end;
+}
+
