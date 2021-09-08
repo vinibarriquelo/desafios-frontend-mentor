@@ -2,39 +2,46 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <title>Frontend Mentor | FAQ Accordion Card</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  How many team members can I invite?
-  You can invite up to 2 additional users on the Free plan. There is no limit on 
-  team members for the Premium plan.
+  <div class="body-bg">
+    <main class="content">
+      <section class="imagem">
+        <img src="images/illustration-woman-online-desktop.svg" alt="" class="imagem-mulher">
+        <img src="images/illustration-box-desktop.svg" alt="" class="imagem-box">
+      </section>
 
-  What is the maximum file upload size?
-  No more than 2GB. All files in your account must fit your allotted storage space.
+      <section class="faq">
+        <h1>FAQ</h1>
 
-  How do I reset my password?
-  Click “Forgot password” from the login page or “Change password” from your profile page.
-  A reset link will be emailed to you.
+        <dl>
+          <dt>ow many team members can I invite?</dt>
+          <dd>You can invite up to 2 additional users on the Free plan. There is no limit on 
+            team members for the Premium plan.</dd>
 
-  Can I cancel my subscription?
-  Yes! Send us a message and we’ll process your request no questions asked.
+            <dt>What is the maximum file upload size?</dt>
+            <dd>No more than 2GB. All files in your account must fit your allotted storage space.</dd>
 
-  Do you provide additional support?
-  Chat and email support is available 24/7. Phone lines are open during normal business hours.
+            <dt>How do I reset my password?</dt>
+            <dd>Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.</dd>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+            <dt>Can I cancel my subscription?</dt>
+            <dd>Yes! Send us a message and we’ll process your request no questions asked.</dd>
+
+            <dt>o you provide additional support?</dt>
+            <dd>Chat and email support is available 24/7. Phone lines are open during normal business hours.</dd>
+        </dl>
+
+      </section>
+    </main>
   </div>
+ 
 </body>
 </html>
