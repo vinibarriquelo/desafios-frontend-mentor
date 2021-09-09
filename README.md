@@ -1,7 +1,15 @@
-<h1>Repositorio de Desafios Front End mentor.</h1>
+## O que é:
 
-  <h2>Entre em cada desafio veja o modelo proposto e vou deixar um link com o resultado final que cheguei</h2>
+ O front-end mentor é um site aonde é propostos desafios para desenvolvedores front end em vários níveis de dificuldade. Eu gosto bastante de realizar os desafios para testar meus conhecimentos e sempre aprendo algum novo pesquisando como resolver alguma coisa proposta pelo desafio.
+
+[Site do frontend mentor](https://www.frontendmentor.io/)
+
+------
+
+### Objetivo: Treinar HTML/CSS/Js.
 
 
+
+*Para ver os desafios recomendo que você faça um clone desse repositório(ou simplesmente baixe ele e execute os arquivos index.html).*
 
 
